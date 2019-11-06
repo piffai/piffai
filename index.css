@@ -1,0 +1,158 @@
+@font-face {
+    font-family: "blenderpro";
+    src: url("/fonts/blenderpro-medium-webfont.woff") format('woff');
+}
+
+@font-face {
+    font-family: "DIN";
+    src: url("/fonts/D-DIN.woff") format('woff');
+}
+
+body {
+    /*height: 100px;*/
+    /*padding-left: 10%;*/
+    font-family: "blenderpro";
+    background: -webkit-linear-gradient(left top, #272727, #12283C);
+    background: -o-linear-gradient(bottom right, #272727, #12283C);
+    background: -moz-linear-gradient(bottom right, #272727, #12283C);
+    background: linear-gradient(to bottom right, #272727 , #12283C);
+}
+
+body::after {
+  content: "";
+  background: url("/content/material.jpg");
+  opacity: 0.03;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.container {
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 80%;
+    /*border: solid #67AAF9 1px;*/
+    padding: 5px;
+}
+
+.robotoSlab {
+    font-family: 'Roboto Slab', serif;
+    font-size: 85%;
+}
+
+th {
+    width: 100%;
+    font-weight: normal;
+}
+
+.subtitleDiv {
+    text-align: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 65%;
+    /*border: solid #5B6DCD 1px;*/
+    padding: 10%;
+}
+
+.solutionsDiv {
+    text-align: center;
+    border: 1px solid;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 85%;
+    /*border: solid #5B6DCD 1px;*/
+    padding: 10%;
+}
+
+.titleDiv {
+    font-family: "blenderpro";
+    font-size: 400%;
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    background-color:transparent;
+    -moz-border-radius:14px;
+    -webkit-border-radius:14px;
+    border-radius:14px;
+    border:1px solid rgba(255,255,255,0.1);
+}
+
+.btnTitleLarge {
+    color: #EEE;
+    display:inline-block;
+    cursor:pointer;
+    padding:15px 36px;
+    text-decoration:none;
+    text-shadow:0px 1px 1px #000;
+}
+
+.btnTitleSmall {
+    transition: all .1s ease-in-out;
+    color: #999;
+    font-size: 40%;
+    display:inline-block;
+    cursor:pointer;
+    padding:15px 36px;
+    text-decoration:none;
+    text-shadow:0px 1px 1px #000;
+}
+
+.btnTitleSmall:hover{ font-size: 100%; }
+
+
+.subtitle {
+    font-family: "blenderpro";
+    font-size: 230%;
+    color: #EEE;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.text {
+    font-family: "DIN";
+    font-size: 110%;
+    color: #EEE;
+    padding-left: 10%;
+    padding-top: 5%;
+    line-height: 140%;
+}
+
+.btnDiv {
+    font-family: "DIN";
+    font-size: 130%;
+    color: #8227a3;
+    padding-left: 10%;
+    padding-top: 10%;
+    line-height: 140%;
+}
+
+.btnContact {
+	background-color:transparent;
+	-moz-border-radius:14px;
+	-webkit-border-radius:14px;
+	border-radius:14px;
+	border:1px solid #32a852;
+    color: #3c824f;
+	display:inline-block;
+	cursor:pointer;
+	padding:15px 36px;
+	text-decoration:none;
+	text-shadow:0px 1px 1px #000;
+}
+.btnContact:hover {
+	background-color:transparent;
+    border:1px solid #277a3e;
+    color: #277a3e;
+}
+.btnContact:active {
+	position:relative;
+	top:1px;
+}
+
+.sampleDocument {
+    width: 100%;
+    height: auto;
+}
