@@ -1,11 +1,11 @@
 @font-face {
     font-family: "blenderpro";
-    src: url("./fonts/blenderpro-medium-webfont.woff") format('woff');
+    src: url("./piffai/fonts/blenderpro-medium-webfont.woff") format('woff');
 }
 
 @font-face {
     font-family: "DIN";
-    src: url("./fonts/D-DIN.woff") format('woff');
+    src: url("./piffai/fonts/D-DIN.woff") format('woff');
 }
 
 body {
@@ -20,7 +20,7 @@ body {
 
 body::after {
   content: "";
-  background: url("./content/material.jpg");
+  background: url("./piffai/content/material.jpg");
   opacity: 0.03;
   top: 0;
   left: 0;
